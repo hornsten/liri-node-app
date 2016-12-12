@@ -34,26 +34,34 @@ function liri() {
             });
         } else if (choice.userChoice === 'spotify-this-song') {
 
-            spotify.search({ type: 'track', query: 'The Sign Ace of Base' }, function(err, data) {
-                if (err) {
-                    console.log('Error occurred: ' + err);
-                    return;
-                }
-                var songInfo = data.tracks.items[0];
-                var songResult = console.log('Artist: ' + songInfo.artists[0].name);
-                console.log('Song Title: ' + songInfo.name);
-                console.log('Spotify Preview Link: ' + songInfo.preview_url);
-                console.log('Album: ' + songInfo.album.name);
-                return;
+            inquirer.prompt([
 
-            });
+                {
+                    type: "input",
+                    name: "song",
+                    message: "What song would you like?"
+                }
+
+            ]).then(function(user) {
+
+                spotify.search({ type: 'track', query: user.song }, function(err, data) {
+                    if (err) {
+                        console.log('Error occurred: ' + err);
+                        return;
+                    }
+                    var songInfo = data.tracks.items[0];
+                    var songResult = console.log('Artist: ' + songInfo.artists[0].name);
+                    console.log('Song Title: ' + songInfo.name);
+                    console.log('Spotify Preview Link: ' + songInfo.preview_url);
+                    console.log('Album: ' + songInfo.album.name);
+                    return;
+
+                });
+            })
 
         }
+
     });
-
-
-
-
 
 }
 
