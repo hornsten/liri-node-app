@@ -1,7 +1,7 @@
 var Twitter = require('twitter');
 var keys = require('./keys.js');
 var inquirer = require("inquirer");
-
+var spotify = require('spotify');
 var client = new Twitter(keys.twitterKeys);
 
 
@@ -13,13 +13,13 @@ function liri() {
             type: "list",
             name: "userChoice",
             message: "Hi, I'm LIRI! Your wish is my command. What can I do for you?",
-            choices: ["my-tweets"]
+            choices: ['my-tweets', `spotify-this-song`]
         }
 
     ]).then(function(choice) {
 
         // If the user's guess matches the number then...
-        if ((choice.userChoice) === "my-tweets") {
+        if ((choice.userChoice) === 'my-tweets') {
             client.get('statuses/user_timeline', { screen_name: 'jhornsten', count: 20 }, function(error, tweets, response) {
                 if (error) throw error;
                 // console.log(JSON.stringify(tweets, null, 2)); // The tweets.
@@ -32,12 +32,28 @@ function liri() {
 
 
             });
-        } else {
+        } else if (choice.userChoice === 'spotify-this-song') {
 
-            console.log('Try again');
+            spotify.search({ type: 'track', query: 'The Sign Ace of Base' }, function(err, data) {
+                if (err) {
+                    console.log('Error occurred: ' + err);
+                    return;
+                }
+                var songInfo = data.tracks.items[0];
+                var songResult = console.log('Artist: ' + songInfo.artists[0].name);
+                console.log('Song Title: ' + songInfo.name);
+                console.log('Spotify Preview Link: ' + songInfo.preview_url);
+                console.log('Album: ' + songInfo.album.name);
+                return;
+
+            });
 
         }
     });
+
+
+
+
 
 }
 
