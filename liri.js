@@ -58,7 +58,9 @@ function myTweets() {
             var createdAt = tweets[i].created_at;
             console.log(i + ". " + createdAt + " : " + text);
             console.log('___________________________________');
+            appendToLog(i + ". " + createdAt + " : " + text);
         }
+
         askAnotherQuestion();
     });
 }
@@ -89,6 +91,12 @@ function spotifyThis() {
             }
 
             var songInfo = data.tracks.items[0];
+            var songData = {
+                artist: songInfo.artists[0].name,
+                title: songInfo.name,
+                link: songInfo.preview_url,
+                album: songInfo.album.name
+            }
 
             console.log('***************************************');
             console.log('Artist: ' + songInfo.artists[0].name);
@@ -96,6 +104,7 @@ function spotifyThis() {
             console.log('Spotify Preview Link: ' + songInfo.preview_url);
             console.log('Album: ' + songInfo.album.name);
             console.log('***************************************');
+            appendToLog(songData)
             askAnotherQuestion();
 
         });
@@ -133,7 +142,7 @@ function beautifulFlowers() {
 
         console.log('I\'m *actually* having fun now!  Wait...already over it...');
 
-
+        appendToLog(songInfo.artists[0].name + "...User Was Rickrolled.");
         askAnotherQuestion();
 
     });
@@ -183,6 +192,18 @@ function movieThis() {
 
                 // Parse the body of the site and print the movie info
 
+                var movieData = {
+                    title: JSON.parse(body).Title,
+                    year: JSON.parse(body).Year,
+                    imdbRating: JSON.parse(body).imdbRating,
+                    country: JSON.parse(body).Country,
+                    language: JSON.parse(body).Language,
+                    plot: JSON.parse(body).Plot,
+                    actors: JSON.parse(body).Actors,
+                    rotten_tomatoes_rating: JSON.parse(body).tomatoRating,
+                    rotten_tomatoes_URL: JSON.parse(body).tomatoURL
+                }
+
                 console.log('********************************************************');
                 console.log("Title: " + JSON.parse(body).Title);
                 console.log("Year: " + JSON.parse(body).Year);
@@ -194,6 +215,8 @@ function movieThis() {
                 console.log("Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating);
                 console.log("Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL);
                 console.log('********************************************************');
+
+                appendToLog(JSON.stringify(movieData, null, 2));
                 askAnotherQuestion();
             }
 
@@ -278,6 +301,15 @@ function doWhatItSays() {
     })
 }
 
+function appendToLog(info) {
+    var f = 'log.txt';
+
+    fs.appendFile(f, info, function(err) {
+        if (err)
+            console.error(err);
+    });
+}
+
 //Start LIRI
-console.log('Hey, I\'m Liri.');
+console.log('Hi, I\'m Liri, your bored assistant.');
 liri();
