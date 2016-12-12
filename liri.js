@@ -15,8 +15,8 @@ function liri() {
     inquirer.prompt([{
             type: "list",
             name: "userChoice",
-            message: "Hi, I'm LIRI! Your wish is my command. What can I do for you?",
-            choices: ['my-tweets', 'spotify-this-song', 'movie-this', 'do-what-it-says']
+            message: "Hey, I'm Liri. What can I do for you?",
+            choices: ['my-tweets', 'spotify-this-song', 'movie-this', 'do-what-it-says', 'beautiful-flowers!']
         }
 
     ]).then(function(choice) {
@@ -34,6 +34,38 @@ function liri() {
         } else if (choice.userChoice === 'movie-this') {
 
             movieThis();
+
+        } else if (choice.userChoice === 'beautiful-flowers!') {
+            var rickRoll = "Never Gonna Give You Up";
+
+            spotify.search({ type: 'track', query: rickRoll }, function(err, data) {
+
+
+                if (err) {
+                    console.log('Error occurred: ' + err);
+                    return;
+                }
+
+                var songInfo = data.tracks.items[0];
+                console.log(" ");
+                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log('**********************************************************');
+                console.log('Artist: ' + songInfo.artists[0].name);
+                console.log('Song Title: ' + songInfo.name);
+                console.log('Spotify Preview Link: ' + songInfo.preview_url);
+                console.log('Album: ' + songInfo.album.name);
+                console.log('**********************************************************');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log(" ");
+
+                console.log('I\'m *actually* having fun now!  Wait...already over it...');
+                askAnotherQuestion();
+
+            });
 
         } else if (choice.userChoice === 'do-what-it-says') {
 
@@ -67,7 +99,7 @@ function liri() {
                             console.log('Spotify Preview Link: ' + songInfo.preview_url);
                             console.log('Album: ' + songInfo.album.name);
                             console.log('***************************************');
-                            return;
+                            askAnotherQuestion();
 
                         });
                     } else if (myArray[0] === 'movie-this') {
@@ -96,11 +128,13 @@ function liri() {
                                 console.log('********************************************************');
 
                             }
+                            askAnotherQuestion();
                         });
 
 
                     } else if (myArray[0] === 'my-tweets') {
                         myTweets();
+                        askAnotherQuestion();
                     }
 
                 }
@@ -121,10 +155,10 @@ function myTweets() {
         for (var i = 0; i < tweets.length; i++) {
             var text = tweets[i].text;
             var createdAt = tweets[i].created_at;
-            console.log('******************************************************');
             console.log(i + ". " + createdAt + " : " + text);
+            console.log('___________________________________');
         }
-
+        askAnotherQuestion();
     });
 }
 var spotifyPrompt = {
@@ -161,7 +195,7 @@ function spotifyThis() {
             console.log('Spotify Preview Link: ' + songInfo.preview_url);
             console.log('Album: ' + songInfo.album.name);
             console.log('***************************************');
-            return;
+            askAnotherQuestion();
 
         });
     })
@@ -178,6 +212,24 @@ var moviePrompt = {
     }
 }
 
+var goAgain = {
+    type: 'confirm',
+    name: 'goAgain',
+    message: '...<sigh>...Anything else I can do for you (hit enter for YES, if you must)?',
+    default: true
+}
+
+function askAnotherQuestion() {
+    inquirer.prompt(goAgain).then(function(user) {
+        if (user.goAgain) {
+            liri();
+        } else {
+            console.log(' ');
+            console.log('Well, this has been...different. Thanks, I guess? Bye, weirdo...[Liri has disconnected].');
+            console.log(' ');
+        }
+    })
+}
 
 function movieThis() {
 
@@ -205,8 +257,9 @@ function movieThis() {
                 console.log("Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating);
                 console.log("Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL);
                 console.log('********************************************************');
-
+                askAnotherQuestion();
             }
+
         });
 
     });
