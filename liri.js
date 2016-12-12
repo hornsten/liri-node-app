@@ -6,8 +6,6 @@ var request = require('request');
 var fs = require("fs"); //this is the file stream object
 var client = new Twitter(keys.twitterKeys);
 
-
-
 // Ask LIRI to perform a task
 function liri() {
 
@@ -48,18 +46,18 @@ function liri() {
 
                 var songInfo = data.tracks.items[0];
                 console.log(" ");
-                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
-                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
-                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rickrolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rickrolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rickrolled!!!!!!!!!!!!!!!!!');
                 console.log('**********************************************************');
                 console.log('Artist: ' + songInfo.artists[0].name);
                 console.log('Song Title: ' + songInfo.name);
                 console.log('Spotify Preview Link: ' + songInfo.preview_url);
                 console.log('Album: ' + songInfo.album.name);
                 console.log('**********************************************************');
-                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
-                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
-                console.log('!!!!!!!!!!!!!!!!!You just got Rick Rolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rickrolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rickrolled!!!!!!!!!!!!!!!!!');
+                console.log('!!!!!!!!!!!!!!!!!You just got Rickrolled!!!!!!!!!!!!!!!!!');
                 console.log(" ");
 
                 console.log('I\'m *actually* having fun now!  Wait...already over it...');
