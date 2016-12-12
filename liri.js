@@ -3,6 +3,7 @@ var keys = require('./keys.js');
 var inquirer = require("inquirer");
 var spotify = require('spotify');
 var request = require('request');
+var fs = require("fs"); //this is the file stream object
 var client = new Twitter(keys.twitterKeys);
 
 
@@ -14,7 +15,7 @@ function liri() {
             type: "list",
             name: "userChoice",
             message: "Hi, I'm LIRI! Your wish is my command. What can I do for you?",
-            choices: ['my-tweets', 'spotify-this-song', 'movie-this']
+            choices: ['my-tweets', 'spotify-this-song', 'movie-this', 'do-what-it-says']
         }
 
     ]).then(function(choice) {
@@ -44,18 +45,26 @@ function liri() {
                 {
                     type: "input",
                     name: "song",
-                    message: "What song would you like to know about?"
+                    message: "What song would you like to know about?",
+
+                    //if user doesn't input anything, this is the default
+                    default: function() {
+                        return 'The Sign Ace of Base';
+                    }
                 }
 
             ]).then(function(user) {
 
-                //Search Spotify for user-specified song. If they don't enter a song, the
-                //default will be "The Sign" by Ace of Base
+                //Search Spotify for user-specified song.
+
                 spotify.search({ type: 'track', query: user.song }, function(err, data) {
+
+
                     if (err) {
                         console.log('Error occurred: ' + err);
                         return;
                     }
+
                     var songInfo = data.tracks.items[0];
 
                     console.log('***************************************');
@@ -76,13 +85,16 @@ function liri() {
                 {
                     type: "input",
                     name: "movie",
-                    message: "What movie would you like to know about?"
+                    message: "What movie would you like to know about?",
+                    //if user doesn't input anything, this is the default
+                    default: function() {
+                        return 'Mr. Nobody';
+                    }
                 }
 
             ]).then(function(user) {
 
                 // Run a request to the OMDB API with the user's movie specified. 
-                //Still need to figure out: If they don't specify a title, the result will be "Mr. Nobody"
 
                 var queryUrl = "http://www.omdbapi.com/?t=" + user.movie + "&y=&plot=short&tomatoes=true&r=json";
 
@@ -109,6 +121,29 @@ function liri() {
                 });
 
             });
+        } else if (choice.userChoice === 'do-what-it-says') {
+
+
+            fs.readFile('random.txt', "utf8", function(error, data) {
+
+                if (error) {
+                    return console.log(error);
+
+                } else {
+
+                    var myArray = data.split(',');
+                    console.log(myArray);
+
+                    choice.userChoice = myArray[0];
+                    console.log(choice.userChoice);
+
+                    this.song = myArray[1];
+                    console.log(this.song);
+                }
+
+
+
+            })
         }
 
     });
