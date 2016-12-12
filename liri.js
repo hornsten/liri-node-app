@@ -9,10 +9,10 @@ var fs = require("fs"); //this is the file stream object
 var client = new Twitter(keys.twitterKeys);
 
 // *************************************** Main Process **********************************
-// Ask LIRI to perform a task
+// Ask Liri to perform a task
 function liri() {
 
-    // Prompts user to choose from a list of tasks for LIRI to perform
+    // Prompts user to choose from a list of tasks for Liri to perform
     inquirer.prompt([{
             type: "list",
             name: "userChoice",
@@ -22,26 +22,24 @@ function liri() {
 
     ]).then(function(choice) {
 
-        // If the user wants LIRI to print a list of my latest tweets
-
         if ((choice.userChoice) === 'my-tweets') {
-
+            // Liri will print a list of my latest tweets
             myTweets();
 
         } else if (choice.userChoice === 'spotify-this-song') {
-
+            //Liri will provide song information from Spotify based on user request
             spotifyThis();
 
         } else if (choice.userChoice === 'movie-this') {
-
+            //Liri will provide movie information from OMDB based on user request
             movieThis();
 
         } else if (choice.userChoice === 'beautiful-flowers!') {
-
+            //Liri provides "beautiful flowers" for the user who chooses this option
             beautifulFlowers();
 
         } else if (choice.userChoice === 'do-what-it-says') {
-
+            //Liri takes her commands from the first line of random.txt
             doWhatItSays();
         }
 
@@ -50,20 +48,23 @@ function liri() {
 }
 // *************************************** Functions **********************************
 function myTweets() {
+    //call to Twitter to get latest tweets from my account.  I don't have 20 yet.
     client.get('statuses/user_timeline', { screen_name: 'jhornsten', count: 15 }, function(error, tweets, response) {
         if (error) throw error;
-
+        //For each tweet, log its number, when it was created, and the tweet itself 
         for (var i = 0; i < tweets.length; i++) {
             var text = tweets[i].text;
             var createdAt = tweets[i].created_at;
             console.log(i + ". " + createdAt + " : " + text);
             console.log('___________________________________');
+            //append this information to log.txt
             appendToLog(i + ". " + createdAt + " : " + text);
         }
-
+        //After each search, user is given the choice to make more requests to Liri, or quit the interface
         askAnotherQuestion();
     });
 }
+//When the user chooses spotify-this-song, s/he is presented with this follow-up prompt.
 var spotifyPrompt = {
     type: "input",
     name: "song",
@@ -147,6 +148,7 @@ function beautifulFlowers() {
 
     });
 }
+//When the user chooses movie-this, s/he is presented with this follow-up prompt.
 
 var moviePrompt = {
     type: "input",
@@ -226,22 +228,21 @@ function movieThis() {
 }
 
 function doWhatItSays() {
-
+    //This function grabs the first line of random.txt, splits it into an array, and uses the two indices as arguments
     fs.readFile('random.txt', "utf8", function(error, data) {
 
         if (error) {
             return console.log(error);
 
         } else {
-
+            //splits the first line of random.txt into an array
             var myArray = data.split(',');
-            console.log(myArray);
-
+            //if myArray[0] is 'spotify-this-song'...
             if (myArray[0] === 'spotify-this-song') {
+                //search for the song specified in myArray[1]  
                 var radSong = myArray[1];
 
                 spotify.search({ type: 'track', query: radSong }, function(err, data) {
-
 
                     if (err) {
                         console.log('Error occurred: ' + err);
@@ -259,9 +260,10 @@ function doWhatItSays() {
                     askAnotherQuestion();
 
                 });
+                //if myArray[0] wants a movie...
             } else if (myArray[0] === 'movie-this') {
+                //search for the movie
                 var coolMovie = myArray[1];
-
 
                 var queryUrl = "http://www.omdbapi.com/?t=" + coolMovie + "&y=&plot=short&tomatoes=true&r=json";
 
@@ -288,7 +290,7 @@ function doWhatItSays() {
                     askAnotherQuestion();
                 });
 
-
+                //if myArray wants my tweets, get them
             } else if (myArray[0] === 'my-tweets') {
                 myTweets();
                 askAnotherQuestion();
@@ -296,11 +298,9 @@ function doWhatItSays() {
 
         }
 
-
-
     })
 }
-
+//function to append all the search results to log.txt
 function appendToLog(info) {
     var f = 'log.txt';
 
@@ -310,6 +310,6 @@ function appendToLog(info) {
     });
 }
 
-//Start LIRI
+//Start Liri
 console.log('Hi, I\'m Liri, your bored assistant.');
 liri();

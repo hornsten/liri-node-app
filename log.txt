@@ -1,0 +1,35 @@
+0. Sun Dec 11 14:56:30 +0000 2016 : I Love Twitter1. Thu Dec 08 14:45:45 +0000 2016 : RT @noelbaron: Few things in life are as rewarding as conquering a complex, hierarchical, asynchronous event system. #NodeJS2. Tue Dec 06 21:01:40 +0000 2016 : RT @npmdaily: ziom - Series and parallel tasks | shameless Gulp 4 clone https://t.co/OPPqa3OjJs  #npm #javascript #nodejs3. Tue Dec 06 20:02:22 +0000 2016 : RT @AdilMishra1: RT jonatthan1992: Learn How to Upload Multiple Files Using #NodeJS https://t.co/kEZ8D1xKvz | #php #Expressjs #node https:/…4. Tue Dec 06 19:34:12 +0000 2016 : RT @goldglovecb: The video of my #NodeInteractive talk is now online at https://t.co/PzcEoSQ9kS #NodeJS @nodejs5. Mon Dec 05 23:19:19 +0000 2016 : RT @DesignerDepot: The Daunting Task Of Making AI Funny https://t.co/YC6DzJE86F6. Tue Nov 29 14:00:15 +0000 2016 : RT @Delahuntagram: This character creation UI is quite functional.
+
+#design #ux #ui #creative
+
+https://t.co/uuH9BNW5UP https://t.co/jZe23t9…7. Fri Nov 18 14:16:31 +0000 2016 : OAuth 2.0 is like a boring party guest that blocks your path to the mini-quiches.8. Wed Nov 16 16:18:10 +0000 2016 : I want that. https://t.co/Y3ZgrId96K9. Wed Nov 16 05:57:57 +0000 2016 : https://t.co/Vo6TReSQvM10. Tue Nov 15 16:01:33 +0000 2016 : Deep diving into Firebase today to build a multiplayer game! https://t.co/AiFcpYTImM11. Mon Nov 14 19:48:18 +0000 2016 : Hooray for Chrome DevTools! https://t.co/89TVVPL2rg12. Mon Nov 14 19:42:31 +0000 2016 : RT @LeaVerou: 🚀 Check out Modular JavaScript!
+📚 5 books on writing robust, well-tested &amp; modular applications
+👏 Crowdfunded &amp; open https://…13. Mon Nov 14 19:15:53 +0000 2016 : RT @Real_CSS_Tricks: "An emoji guide for your commit messages"
+
+https://t.co/WTdB1IIsEj https://t.co/QZd2Q1AK5q14. Sat Sep 06 15:18:45 +0000 2014 : @yellowtractorco Yes it's me!  You are my first tweet, SW #1![object Object]Rick Astley...User Was Rickrolled.0. Sun Dec 11 14:56:30 +0000 2016 : I Love Twitter1. Thu Dec 08 14:45:45 +0000 2016 : RT @noelbaron: Few things in life are as rewarding as conquering a complex, hierarchical, asynchronous event system. #NodeJS2. Tue Dec 06 21:01:40 +0000 2016 : RT @npmdaily: ziom - Series and parallel tasks | shameless Gulp 4 clone https://t.co/OPPqa3OjJs  #npm #javascript #nodejs3. Tue Dec 06 20:02:22 +0000 2016 : RT @AdilMishra1: RT jonatthan1992: Learn How to Upload Multiple Files Using #NodeJS https://t.co/kEZ8D1xKvz | #php #Expressjs #node https:/…4. Tue Dec 06 19:34:12 +0000 2016 : RT @goldglovecb: The video of my #NodeInteractive talk is now online at https://t.co/PzcEoSQ9kS #NodeJS @nodejs5. Mon Dec 05 23:19:19 +0000 2016 : RT @DesignerDepot: The Daunting Task Of Making AI Funny https://t.co/YC6DzJE86F6. Tue Nov 29 14:00:15 +0000 2016 : RT @Delahuntagram: This character creation UI is quite functional.
+
+#design #ux #ui #creative
+
+https://t.co/uuH9BNW5UP https://t.co/jZe23t9…7. Fri Nov 18 14:16:31 +0000 2016 : OAuth 2.0 is like a boring party guest that blocks your path to the mini-quiches.8. Wed Nov 16 16:18:10 +0000 2016 : I want that. https://t.co/Y3ZgrId96K9. Wed Nov 16 05:57:57 +0000 2016 : https://t.co/Vo6TReSQvM10. Tue Nov 15 16:01:33 +0000 2016 : Deep diving into Firebase today to build a multiplayer game! https://t.co/AiFcpYTImM11. Mon Nov 14 19:48:18 +0000 2016 : Hooray for Chrome DevTools! https://t.co/89TVVPL2rg12. Mon Nov 14 19:42:31 +0000 2016 : RT @LeaVerou: 🚀 Check out Modular JavaScript!
+📚 5 books on writing robust, well-tested &amp; modular applications
+👏 Crowdfunded &amp; open https://…13. Mon Nov 14 19:15:53 +0000 2016 : RT @Real_CSS_Tricks: "An emoji guide for your commit messages"
+
+https://t.co/WTdB1IIsEj https://t.co/QZd2Q1AK5q14. Sat Sep 06 15:18:45 +0000 2014 : @yellowtractorco Yes it's me!  You are my first tweet, SW #1![object Object]{
+  "title": "Mr. Nobody",
+  "year": "2009",
+  "imdbRating": "7.9",
+  "country": "Belgium, Germany, Canada, France",
+  "language": "English, Mohawk",
+  "plot": "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.",
+  "actors": "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham",
+  "rotten_tomatoes_rating": "6.6",
+  "rotten_tomatoes_URL": "http://www.rottentomatoes.com/m/mr-nobody/"
+}Rick Astley...User Was Rickrolled.0. Sun Dec 11 14:56:30 +0000 2016 : I Love Twitter1. Thu Dec 08 14:45:45 +0000 2016 : RT @noelbaron: Few things in life are as rewarding as conquering a complex, hierarchical, asynchronous event system. #NodeJS2. Tue Dec 06 21:01:40 +0000 2016 : RT @npmdaily: ziom - Series and parallel tasks | shameless Gulp 4 clone https://t.co/OPPqa3OjJs  #npm #javascript #nodejs3. Tue Dec 06 20:02:22 +0000 2016 : RT @AdilMishra1: RT jonatthan1992: Learn How to Upload Multiple Files Using #NodeJS https://t.co/kEZ8D1xKvz | #php #Expressjs #node https:/…4. Tue Dec 06 19:34:12 +0000 2016 : RT @goldglovecb: The video of my #NodeInteractive talk is now online at https://t.co/PzcEoSQ9kS #NodeJS @nodejs5. Mon Dec 05 23:19:19 +0000 2016 : RT @DesignerDepot: The Daunting Task Of Making AI Funny https://t.co/YC6DzJE86F6. Tue Nov 29 14:00:15 +0000 2016 : RT @Delahuntagram: This character creation UI is quite functional.
+
+#design #ux #ui #creative
+
+https://t.co/uuH9BNW5UP https://t.co/jZe23t9…7. Fri Nov 18 14:16:31 +0000 2016 : OAuth 2.0 is like a boring party guest that blocks your path to the mini-quiches.8. Wed Nov 16 16:18:10 +0000 2016 : I want that. https://t.co/Y3ZgrId96K9. Wed Nov 16 05:57:57 +0000 2016 : https://t.co/Vo6TReSQvM10. Tue Nov 15 16:01:33 +0000 2016 : Deep diving into Firebase today to build a multiplayer game! https://t.co/AiFcpYTImM11. Mon Nov 14 19:48:18 +0000 2016 : Hooray for Chrome DevTools! https://t.co/89TVVPL2rg12. Mon Nov 14 19:42:31 +0000 2016 : RT @LeaVerou: 🚀 Check out Modular JavaScript!
+📚 5 books on writing robust, well-tested &amp; modular applications
+👏 Crowdfunded &amp; open https://…13. Mon Nov 14 19:15:53 +0000 2016 : RT @Real_CSS_Tricks: "An emoji guide for your commit messages"
+
+https://t.co/WTdB1IIsEj https://t.co/QZd2Q1AK5q14. Sat Sep 06 15:18:45 +0000 2014 : @yellowtractorco Yes it's me!  You are my first tweet, SW #1!
