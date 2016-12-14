@@ -1,35 +1,87 @@
-0. Sun Dec 11 14:56:30 +0000 2016 : I Love Twitter1. Thu Dec 08 14:45:45 +0000 2016 : RT @noelbaron: Few things in life are as rewarding as conquering a complex, hierarchical, asynchronous event system. #NodeJS2. Tue Dec 06 21:01:40 +0000 2016 : RT @npmdaily: ziom - Series and parallel tasks | shameless Gulp 4 clone https://t.co/OPPqa3OjJs  #npm #javascript #nodejs3. Tue Dec 06 20:02:22 +0000 2016 : RT @AdilMishra1: RT jonatthan1992: Learn How to Upload Multiple Files Using #NodeJS https://t.co/kEZ8D1xKvz | #php #Expressjs #node https:/…4. Tue Dec 06 19:34:12 +0000 2016 : RT @goldglovecb: The video of my #NodeInteractive talk is now online at https://t.co/PzcEoSQ9kS #NodeJS @nodejs5. Mon Dec 05 23:19:19 +0000 2016 : RT @DesignerDepot: The Daunting Task Of Making AI Funny https://t.co/YC6DzJE86F6. Tue Nov 29 14:00:15 +0000 2016 : RT @Delahuntagram: This character creation UI is quite functional.
+0. Wed Dec 14 16:36:19 +0000 2016 : RT @wdtuts: Level up your business' email newsletter with these amazing MailChimp templates. https://t.co/gnTf4R6XON
+-------------------------------
+1. Wed Dec 14 16:35:41 +0000 2016 : RT @tutsplus: Create a text effect based on the logo text for Marvel superhero Luke Cage. https://t.co/nE6pgZWv1F
+-------------------------------
+2. Wed Dec 14 16:35:06 +0000 2016 : RT @JavaScriptDaily: How to Build a Realtime Activity Feed with React and Pusher: https://t.co/BfnCm6G7yj https://t.co/mxUA9FSFZY
+-------------------------------
+3. Wed Dec 14 00:31:56 +0000 2016 : RT @dr_vitus_zato: Working with regular expressions in JavaScript ! https://t.co/736A1RIPQ4 #javascript #webdesign #code #php #nodejs #angu…
+-------------------------------
+4. Wed Dec 14 00:29:49 +0000 2016 : RT @gsabate: Top 6 #Programming Languages for #IoT: 1 #Java 2 #C 3 #Javascript 4 #Python 5 #CPlusPlus 6 #NodeJS @MikeQuindazzi https://t.co…
+-------------------------------
+5. Wed Dec 14 00:24:52 +0000 2016 : RT @NodeJsQnA: Print a list of all installed node.js modules #nodejs https://t.co/CaGS2tO3ea
+-------------------------------
+6. Tue Dec 13 01:22:45 +0000 2016 : 20 JavaScript tools to blow your mind https://t.co/E5gPVOn6Oc
+-------------------------------
+7. Sun Dec 11 14:56:30 +0000 2016 : I Love Twitter
+-------------------------------
+8. Thu Dec 08 14:45:45 +0000 2016 : RT @noelbaron: Few things in life are as rewarding as conquering a complex, hierarchical, asynchronous event system. #NodeJS
+-------------------------------
+9. Tue Dec 06 21:01:40 +0000 2016 : RT @npmdaily: ziom - Series and parallel tasks | shameless Gulp 4 clone https://t.co/OPPqa3OjJs  #npm #javascript #nodejs
+-------------------------------
+10. Tue Dec 06 20:02:22 +0000 2016 : RT @AdilMishra1: RT jonatthan1992: Learn How to Upload Multiple Files Using #NodeJS https://t.co/kEZ8D1xKvz | #php #Expressjs #node https:/…
+-------------------------------
+11. Tue Dec 06 19:34:12 +0000 2016 : RT @goldglovecb: The video of my #NodeInteractive talk is now online at https://t.co/PzcEoSQ9kS #NodeJS @nodejs
+-------------------------------
+12. Mon Dec 05 23:19:19 +0000 2016 : RT @DesignerDepot: The Daunting Task Of Making AI Funny https://t.co/YC6DzJE86F
+-------------------------------
+13. Tue Nov 29 14:00:15 +0000 2016 : RT @Delahuntagram: This character creation UI is quite functional.
 
 #design #ux #ui #creative
 
-https://t.co/uuH9BNW5UP https://t.co/jZe23t9…7. Fri Nov 18 14:16:31 +0000 2016 : OAuth 2.0 is like a boring party guest that blocks your path to the mini-quiches.8. Wed Nov 16 16:18:10 +0000 2016 : I want that. https://t.co/Y3ZgrId96K9. Wed Nov 16 05:57:57 +0000 2016 : https://t.co/Vo6TReSQvM10. Tue Nov 15 16:01:33 +0000 2016 : Deep diving into Firebase today to build a multiplayer game! https://t.co/AiFcpYTImM11. Mon Nov 14 19:48:18 +0000 2016 : Hooray for Chrome DevTools! https://t.co/89TVVPL2rg12. Mon Nov 14 19:42:31 +0000 2016 : RT @LeaVerou: 🚀 Check out Modular JavaScript!
+https://t.co/uuH9BNW5UP https://t.co/jZe23t9…
+-------------------------------
+14. Fri Nov 18 14:16:31 +0000 2016 : OAuth 2.0 is like a boring party guest that blocks your path to the mini-quiches.
+-------------------------------
+15. Wed Nov 16 16:18:10 +0000 2016 : I want that. https://t.co/Y3ZgrId96K
+-------------------------------
+16. Wed Nov 16 05:57:57 +0000 2016 : https://t.co/Vo6TReSQvM
+-------------------------------
+17. Tue Nov 15 16:01:33 +0000 2016 : Deep diving into Firebase today to build a multiplayer game! https://t.co/AiFcpYTImM
+-------------------------------
+18. Mon Nov 14 19:48:18 +0000 2016 : Hooray for Chrome DevTools! https://t.co/89TVVPL2rg
+-------------------------------
+19. Mon Nov 14 19:42:31 +0000 2016 : RT @LeaVerou: 🚀 Check out Modular JavaScript!
 📚 5 books on writing robust, well-tested &amp; modular applications
-👏 Crowdfunded &amp; open https://…13. Mon Nov 14 19:15:53 +0000 2016 : RT @Real_CSS_Tricks: "An emoji guide for your commit messages"
+👏 Crowdfunded &amp; open https://…
+-------------------------------
 
-https://t.co/WTdB1IIsEj https://t.co/QZd2Q1AK5q14. Sat Sep 06 15:18:45 +0000 2014 : @yellowtractorco Yes it's me!  You are my first tweet, SW #1![object Object]Rick Astley...User Was Rickrolled.0. Sun Dec 11 14:56:30 +0000 2016 : I Love Twitter1. Thu Dec 08 14:45:45 +0000 2016 : RT @noelbaron: Few things in life are as rewarding as conquering a complex, hierarchical, asynchronous event system. #NodeJS2. Tue Dec 06 21:01:40 +0000 2016 : RT @npmdaily: ziom - Series and parallel tasks | shameless Gulp 4 clone https://t.co/OPPqa3OjJs  #npm #javascript #nodejs3. Tue Dec 06 20:02:22 +0000 2016 : RT @AdilMishra1: RT jonatthan1992: Learn How to Upload Multiple Files Using #NodeJS https://t.co/kEZ8D1xKvz | #php #Expressjs #node https:/…4. Tue Dec 06 19:34:12 +0000 2016 : RT @goldglovecb: The video of my #NodeInteractive talk is now online at https://t.co/PzcEoSQ9kS #NodeJS @nodejs5. Mon Dec 05 23:19:19 +0000 2016 : RT @DesignerDepot: The Daunting Task Of Making AI Funny https://t.co/YC6DzJE86F6. Tue Nov 29 14:00:15 +0000 2016 : RT @Delahuntagram: This character creation UI is quite functional.
+***************************************
+Artist: DJ Snake
+Song Title: Turn Down for What
+Spotify Preview Link: https://p.scdn.co/mp3-preview/fde5f6c570eb2ecaca797c0984a247a47d3fdc21?cid=null
+Album: Turn Down for What
+***************************************
 
-#design #ux #ui #creative
+********************************************************
+Title: Being John Malkovich
+Year: 1999
+IMDB Rating: 7.8
+Country: USA
+Language: English
+Plot: A puppeteer discovers a portal that leads literally into the head of movie star John Malkovich.
+Actors: John Cusack, Cameron Diaz, Ned Bellamy, Eric Weinstein
+Rotten Tomatoes Rating: 8.1
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/being_john_malkovich/
+********************************************************
 
-https://t.co/uuH9BNW5UP https://t.co/jZe23t9…7. Fri Nov 18 14:16:31 +0000 2016 : OAuth 2.0 is like a boring party guest that blocks your path to the mini-quiches.8. Wed Nov 16 16:18:10 +0000 2016 : I want that. https://t.co/Y3ZgrId96K9. Wed Nov 16 05:57:57 +0000 2016 : https://t.co/Vo6TReSQvM10. Tue Nov 15 16:01:33 +0000 2016 : Deep diving into Firebase today to build a multiplayer game! https://t.co/AiFcpYTImM11. Mon Nov 14 19:48:18 +0000 2016 : Hooray for Chrome DevTools! https://t.co/89TVVPL2rg12. Mon Nov 14 19:42:31 +0000 2016 : RT @LeaVerou: 🚀 Check out Modular JavaScript!
-📚 5 books on writing robust, well-tested &amp; modular applications
-👏 Crowdfunded &amp; open https://…13. Mon Nov 14 19:15:53 +0000 2016 : RT @Real_CSS_Tricks: "An emoji guide for your commit messages"
+********************YOU JUST GOT RICKROLLED!!!!!!**************
+*
+*
+*
+*
+*
+*
+*
+***************************************
+Artist: Rick Astley
+Song Title: Never Gonna Give You Up
+Spotify Preview Link: https://p.scdn.co/mp3-preview/22bf10aff02db272f0a053dff5c0063d729df988?cid=null
+Album: Whenever You Need Somebody
+***************************************
 
-https://t.co/WTdB1IIsEj https://t.co/QZd2Q1AK5q14. Sat Sep 06 15:18:45 +0000 2014 : @yellowtractorco Yes it's me!  You are my first tweet, SW #1![object Object]{
-  "title": "Mr. Nobody",
-  "year": "2009",
-  "imdbRating": "7.9",
-  "country": "Belgium, Germany, Canada, France",
-  "language": "English, Mohawk",
-  "plot": "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.",
-  "actors": "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham",
-  "rotten_tomatoes_rating": "6.6",
-  "rotten_tomatoes_URL": "http://www.rottentomatoes.com/m/mr-nobody/"
-}Rick Astley...User Was Rickrolled.0. Sun Dec 11 14:56:30 +0000 2016 : I Love Twitter1. Thu Dec 08 14:45:45 +0000 2016 : RT @noelbaron: Few things in life are as rewarding as conquering a complex, hierarchical, asynchronous event system. #NodeJS2. Tue Dec 06 21:01:40 +0000 2016 : RT @npmdaily: ziom - Series and parallel tasks | shameless Gulp 4 clone https://t.co/OPPqa3OjJs  #npm #javascript #nodejs3. Tue Dec 06 20:02:22 +0000 2016 : RT @AdilMishra1: RT jonatthan1992: Learn How to Upload Multiple Files Using #NodeJS https://t.co/kEZ8D1xKvz | #php #Expressjs #node https:/…4. Tue Dec 06 19:34:12 +0000 2016 : RT @goldglovecb: The video of my #NodeInteractive talk is now online at https://t.co/PzcEoSQ9kS #NodeJS @nodejs5. Mon Dec 05 23:19:19 +0000 2016 : RT @DesignerDepot: The Daunting Task Of Making AI Funny https://t.co/YC6DzJE86F6. Tue Nov 29 14:00:15 +0000 2016 : RT @Delahuntagram: This character creation UI is quite functional.
-
-#design #ux #ui #creative
-
-https://t.co/uuH9BNW5UP https://t.co/jZe23t9…7. Fri Nov 18 14:16:31 +0000 2016 : OAuth 2.0 is like a boring party guest that blocks your path to the mini-quiches.8. Wed Nov 16 16:18:10 +0000 2016 : I want that. https://t.co/Y3ZgrId96K9. Wed Nov 16 05:57:57 +0000 2016 : https://t.co/Vo6TReSQvM10. Tue Nov 15 16:01:33 +0000 2016 : Deep diving into Firebase today to build a multiplayer game! https://t.co/AiFcpYTImM11. Mon Nov 14 19:48:18 +0000 2016 : Hooray for Chrome DevTools! https://t.co/89TVVPL2rg12. Mon Nov 14 19:42:31 +0000 2016 : RT @LeaVerou: 🚀 Check out Modular JavaScript!
-📚 5 books on writing robust, well-tested &amp; modular applications
-👏 Crowdfunded &amp; open https://…13. Mon Nov 14 19:15:53 +0000 2016 : RT @Real_CSS_Tricks: "An emoji guide for your commit messages"
-
-https://t.co/WTdB1IIsEj https://t.co/QZd2Q1AK5q14. Sat Sep 06 15:18:45 +0000 2014 : @yellowtractorco Yes it's me!  You are my first tweet, SW #1!
+***************************************
+Artist: Backstreet Boys
+Song Title: I Want It That Way
+Spotify Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+Album: The Hits--Chapter One
+***************************************
